@@ -13,3 +13,5 @@ var anuncioSchema = mongoose.Schema({
     foto: String,
     tags: [String]
 });
+
+mongoose.model('Anuncio', anuncioSchema);
