@@ -1,0 +1,29 @@
+/**
+ * Created by JJLZ on 10/31/16.
+ */
+
+{
+    "anuncios": [
+    {
+        "nombre": "Bicicleta",
+        "venta": true,
+        "precio": 930.00,
+        "foto": "bici.jpg",
+        "tags": [ "lifestyle", "motor"]
+    },
+      {
+        "nombre": "iPhone 3GS",
+        "venta": false,
+        "precio": 800.00,
+        "foto": "iphone.png",
+        "tags": [ "lifestyle", "mobile"]
+    },
+      {
+        "nombre": "Coche",
+        "venta": false,
+        "precio": 11000.00,
+        "foto": "coche.jpg",
+        "tags": [ "lifestyle", "mobile"]
+      }
+    ]
+}
