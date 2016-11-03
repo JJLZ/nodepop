@@ -19,7 +19,7 @@
         "venta": false,
         "precio": 11000.00,
         "foto": "coche.jpg",
-        "tags": [ "lifestyle", "mobile"]
+        "tags": [ "lifestyle", "motor", "work"]
       }
     ]
 }

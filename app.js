@@ -17,8 +17,11 @@ require('./lib/mongoConnection');
 require('./models/Anuncio');
 require('./models/Usuario');
 
-// JJLZ
+// Cargar datos de anuncios y usuarios de prueba
 require('./lib/install_bd');
+
+// Test
+var mongoose
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -34,6 +37,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+
+// JJLZ
+app.use('/apiv1/anuncios', require('./routes/apiv1/anuncios'));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
