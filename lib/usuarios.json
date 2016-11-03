@@ -1,0 +1,9 @@
+{
+  "usuarios": [
+    {
+      "nombre": "felipe",
+      "email": "felipe@bicicletas.com",
+      "clave": "traumalocogo"
+    }
+  ]
+}
