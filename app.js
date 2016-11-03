@@ -13,6 +13,13 @@ var app = express();
 // Conectar mongoose
 require('./lib/mongoConnection');
 
+// Cargo los modelos
+require('./models/Anuncio');
+require('./models/Usuario');
+
+// JJLZ
+require('./lib/install_bd');
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
