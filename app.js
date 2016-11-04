@@ -35,7 +35,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 
-// JJLZ
+// Anuncios routes
 app.use('/apiv1/anuncios', require('./routes/apiv1/anuncios'));
 
 // catch 404 and forward to error handler
