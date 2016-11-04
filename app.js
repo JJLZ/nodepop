@@ -20,9 +20,6 @@ require('./models/Usuario');
 // Cargar datos de anuncios y usuarios de prueba
 require('./lib/install_bd');
 
-// Test
-var mongoose
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
